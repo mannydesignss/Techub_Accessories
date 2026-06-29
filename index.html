@@ -960,7 +960,7 @@
       }
     }
     if (n === 3) {
-      const required = ['box-front', 'box-back', 'box-fabric'];
+      const required = ['box-front'];
       const missing = required.filter(id => !document.getElementById(id).classList.contains('has-image'));
       if (missing.length > 0) {
         alert('Please upload all required images (Front, Back, Fabric Close-Up, Label).');
